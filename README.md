@@ -17,13 +17,13 @@ Click [here](https://lively-welder-190307.appspot.com/) to see the dashboard in 
 
 #### 2. Get the code
 ```shell
-git clone https://github.com/aminbouraiss/flask-dashboard.git
-cd flask-dashboard
+$git clone https://github.com/aminbouraiss/flask-dashboard.git
+$cd flask-dashboard
 ```    
 
 #### 3. Install the project dependencies
 ```shell
-pip install -r requirements.txt
+$pip install -r requirements.txt
 ```
 #### 4. Running the local server
 Launch the dev server with the following commands:
