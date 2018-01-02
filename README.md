@@ -46,16 +46,16 @@ The full documentation is available [here](https://cloud.google.com/appengine/do
 4. go to the directory that contains project code.
 5. Install the project requirements with the following command:
 	```shell
-	pip install -t lib -r requirements.txt
+	$pip install -t lib -r requirements.txt
 	```
 6. Test the application using the local development server (**dev_appserver.py**), which is included with the SDK. start the local development server with the following command:
 	```shell
-	dev_appserver.py app.yaml
+	$dev_appserver.py app.yaml
 	```
 7. Visit **http://localhost:8080/** in your web browser to view the app.
 8. You can deploy the final version of the app with the following command:
 	```shell
-	gcloud app deploy
+	$gcloud app deploy
 	```
 
 
