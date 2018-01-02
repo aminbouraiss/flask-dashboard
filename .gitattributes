@@ -1,0 +1,7 @@
+data/*.json linguist-vendored
+static/*.js linguist-vendored
+static/*.js linguist-vendored
+templates/*.html linguist-vendored
+templates/*.js linguist-vendored
+*.html linguist-vendored
+*.js linguist-vendored
