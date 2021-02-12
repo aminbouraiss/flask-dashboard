@@ -8,7 +8,7 @@ from collections import namedtuple
 
 def csvToTuple(filePath):
     """Convert a csv file to a list of tuples"""
-    with open(filePath, 'rb') as f:
+    with open(filePath, 'r') as f:
         reader = csv.reader(f)
         converted = [tuple(row) for row in reader]
         return converted
